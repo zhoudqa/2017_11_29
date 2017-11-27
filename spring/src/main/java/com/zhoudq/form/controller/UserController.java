@@ -1,7 +1,7 @@
-package com.zhoudq.spring.form.controller;
+package com.zhoudq.form.controller;
 
-import com.zhoudq.spring.form.entity.Gender;
-import com.zhoudq.spring.form.entity.User;
+import com.zhoudq.form.entity.Gender;
+import com.zhoudq.form.entity.User;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.servlet.ModelAndView;

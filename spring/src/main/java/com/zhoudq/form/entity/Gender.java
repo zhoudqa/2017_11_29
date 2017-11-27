@@ -1,4 +1,4 @@
-package com.zhoudq.spring.form.entity;
+package com.zhoudq.form.entity;
 
 public enum Gender {
     MALE,
