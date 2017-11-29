@@ -21,7 +21,7 @@
     <!-- 主题源和主题解析器 -->
     <bean id="themeSource" class="org.springframework.ui.context.support.ResourceBundleThemeSource"/>
     <bean id="themeResolver" class="org.springframework.web.servlet.theme.SessionThemeResolver">
-        <property name="defaultThemeName" value="light"></property>
+        <property name="defaultThemeName" value="theme-light"></property>
     </bean>
     <!-- 位置源和位置解析器 -->
     <bean id="localeResolver" class="org.springframework.web.servlet.i18n.SessionLocaleResolver"/>

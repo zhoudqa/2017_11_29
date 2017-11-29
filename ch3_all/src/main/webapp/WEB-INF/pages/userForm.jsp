@@ -11,7 +11,10 @@
 <body>
 	<h2><spring:message code="welcome"></spring:message> </h2>
 	<spring:message code="lang"></spring:message> <a href="?lang=zh_CH">中文</a> - <a href="?lang=en_US">English</a><br>
-	<spring:message code="theme"></spring:message>:<a href="?theme=light">Light</a> - <a href="?theme=dark">Dark</a> - <a href="?theme=green">Eye Protection</a>
+	<spring:message code="theme"></spring:message>:
+	<a href="?theme=theme-light">Light</a> -
+	<a href="?theme=theme-dark">Dark</a> -
+	<a href="?theme=theme-green">Eye Protection</a>
 	<mvc:form modelAttribute="user" action="result.mvc">
 		<table>
 			<tr>
